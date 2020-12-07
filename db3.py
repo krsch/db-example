@@ -18,8 +18,10 @@ def create_people():
     print(root)
     root.people = BTrees.OOBTree.BTree()
     root.people['A'] = Person('A', datetime.date(2000,1,1))
-# print(root, root.people)
-# print(root.people['A'])
+
+
+print(root, root.people)
+print(root.people['A'])
 # for key, person in root.people.items():
 #     print(key,person)
 # root.people['A'].name = 'AAA'
